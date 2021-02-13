@@ -1,0 +1,109 @@
+html, body {
+	height: 100%;
+}
+body {
+	background: rgb(74,78,105);
+	background: -moz-radial-gradient(circle, rgba(74,78,105,1) 0%, rgba(34,34,59,1) 100%);
+	background: -webkit-radial-gradient(circle, rgba(74,78,105,1) 0%, rgba(34,34,59,1) 100%);
+	background: radial-gradient(circle, rgba(74,78,105,1) 0%, rgba(34,34,59,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4a4e69",endColorstr="#22223b",GradientType=1);
+	font-family: 'Source Sans Pro', sans-serif;
+	overflow: hidden;
+}
+.copyright{
+    margin-top:1px;
+    color:#f2e9e4;
+    text-align:center;
+}
+.copyright a{
+    color:#fc9b0b;
+    font-weight:bold;
+    text-decoration:none;
+}
+.copyright a:hover{
+    color:#fff;
+}
+/* #webgl_container {
+	z-index: 10;
+	overflow:hidden;
+} */
+
+#canvasContainer {
+	/* z-index: 50; */
+	/* opacity: 0.8; */
+	width:360px;
+	position:relative;
+	margin:10px auto;
+	padding: 10px;
+	/* -webkit-transition: opacity 0.5s ease;
+	-moz-transition: opacity 0.5s ease;
+	-ms-transition: opacity 0.5s ease;
+	-o-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease; */
+}
+
+/* #canvasContainer:hover {
+	opacity:1;
+} */
+.drawingOutput {
+	display:block;
+}
+.board {
+	width: 320px;
+	height: 370px;
+	padding-bottom:10px;
+}
+.tinyBoard {
+	margin: 0 auto;
+	background-color:#fff;
+	width: 64px;
+	height: 64px;
+	border: solid 1px #c00;
+	overflow:hidden;
+	float:left;
+	color:white;
+	display: none;
+}
+.instructions {
+	color: #f2e9e4;
+	font-size:30px;
+	text-align:center;
+	/* padding: 5px 0; */
+	margin-bottom: 15px;
+}
+.info {
+	color: #f2e9e4;
+	font-size:30px;
+	text-align:right;
+	float:left;
+	/* height:10px; */
+	width:160px;
+	line-height:45px;
+	margin-right:30px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.ans {
+	font-size: 20px;
+	color: #fff;
+	margin: 0 auto;
+	background-color:#fff;
+	width: 100px;
+	height: 100px;
+	border: solid 1px #c00;
+	float:left;
+	text-align:center;
+}
+#drawingInterface {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: #22223b
+}
+.row {
+  display: table-row;
+}
+.cell {
+  display: table-cell;
+  vertical-align: center;
+}
