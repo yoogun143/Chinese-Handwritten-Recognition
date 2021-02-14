@@ -1,11 +1,11 @@
 # Chinese Handwritten Recognition
 
-Web app using ResNet50 convolutional neural network to recognize 3,755 Chinese handwritten characters.
+`Flask` web app recognizes 3,755 Chinese handwritten characters.
 
 [![](https://img.shields.io/badge/Heroku-Open_Web_App-blue?logo=Heroku)](https://chinese-handwritten.herokuapp.com/)
 
 ## Description
-Train convolutional neural network using pretrained ResNet50 on Imagenet 1000 dataset:
+Train convolutional neural network using pretrained ResNet50 on Imagenet 1000 dataset using `Pytorch`:
 
 - **Fixed feature extractor**: The weights for all of the network will be freezed except that of the final fully connected layer. This step will be trained for 2 -3 epochs to avoid overfitting
 
@@ -22,7 +22,7 @@ Train convolutional neural network using pretrained ResNet50 on Imagenet 1000 da
 ## Prerequisites
 - Python <= 3.7.9
 - Anaconda (optional, is used to install environment, you can use python `venv` instead)
-- HSK 4 at least (Just kidding >.<)
+- HSK 3 at least (Just kidding >.<)
 
 ## Installation
 1. Clone repository:
@@ -82,11 +82,18 @@ Start training
 $ python train.py
 ```
 
+## Roadmap
+- [ ] Reduce web app latency, loading function
+- [ ] Handwritten keyboard
+- [ ] Train with more words
+
+
 ## Credits
 [cnn_handwritten_chinese_recognition](https://github.com/taosir/cnn_handwritten_chinese_recognition)
 
 [tf28: 手写汉字识别](https://cloud.tencent.com/developer/article/1016464)
 
+[drawingboard.js](https://github.com/Leimi/drawingboard.js)
 ## License
 MIT License
 
