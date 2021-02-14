@@ -1,6 +1,8 @@
 # Chinese Handwritten Recognition
 
-Web app using ResNet50 convolutional neural network to recognize 3,755 Chinese characters.
+Web app using ResNet50 convolutional neural network to recognize 3,755 Chinese handwritten characters.
+
+[![](https://img.shields.io/badge/Heroku-Open_Web_App-blue?logo=Heroku)](https://chinese-handwritten.herokuapp.com/)
 
 ## Description
 Train convolutional neural network using pretrained ResNet50 on Imagenet 1000 dataset:
@@ -81,11 +83,29 @@ $ python train.py
 ```
 
 ## Credits
-cnn_handwritten_chinese_recognition
+[cnn_handwritten_chinese_recognition](https://github.com/taosir/cnn_handwritten_chinese_recognition)
 
-cnn_handwritten_chinese_recognition
+[tf28: 手写汉字识别](https://cloud.tencent.com/developer/article/1016464)
 
 ## License
-A short snippet describing the license (MIT, Apache etc)
+MIT License
 
-MIT © ThanhHoang
+Copyright (c) [2021] [Thanh Hoang]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
