@@ -27,7 +27,7 @@ Train convolutional neural network using pretrained ResNet50 on Imagenet 1000 da
 ## Installation
 1. Clone repository:
 ```bash
-$ git clone https://github.com/huggingface/transformers.git #need to change to repository
+$ git clone https://github.com/yoogun143/Chinese-Handwritten-Recognition.git
 $ cd app
 ```
 
